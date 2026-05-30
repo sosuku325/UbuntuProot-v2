@@ -108,7 +108,7 @@ v1は1ファイルに関数がフラットに並んでいるだけでした。v2
 ### 基本的な起動
 
 ```bash
-python proot_server.py
+python UbuntuProot.py
 ```
 
 初回起動時にproot・ttyd・Ubuntu 22.04のrootfsを自動ダウンロードして展開します。2回目以降はキャッシュされたものを使うので即起動します。
@@ -161,13 +161,13 @@ LOG_LEVEL=DEBUG
 
 ```bash
 # プリセット使用
-python proot_server.py --rootfs debian12
+python UbuntuProot.py --rootfs debian12
 
 # ローカルのtarball
-python proot_server.py --rootfs local:/path/to/myrootfs.tar.gz
+python UbuntuProot.py --rootfs local:/path/to/myrootfs.tar.gz
 
 # 任意のURL
-python proot_server.py --rootfs https://example.com/rootfs.tar.gz
+python UbuntuProot.py --rootfs https://example.com/rootfs.tar.gz
 ```
 
 ---
