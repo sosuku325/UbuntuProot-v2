@@ -6,6 +6,14 @@ PRoot（カーネルモジュール不使用のユーザーランドchroot）と
 
 ---
 
+## 動作確認
+![nginx](images/browser.png)
+![console1](images/console1.png)
+![console2](images/console2)
+![console3](images/console3)
+![panel](images/panel.png)
+
+
 ## v1からの変更点
 
 v1は元々「自分の環境で動けばいい」程度の作りで、ポート番号・パスワード・IPアドレスがすべてコードにベタ書きされており、Ubuntuの22.04固定でした。動くには動くけど、少し条件が変わると直しが大変で、バグも複数残っていました。
