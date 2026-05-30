@@ -9,8 +9,8 @@ PRoot（カーネルモジュール不使用のユーザーランドchroot）と
 ## 動作確認
 ![nginx](images/browser.png)
 ![console1](images/console1.png)
-![console2](images/console2)
-![console3](images/console3)
+![console2](images/console2.png)
+![console3](images/console3.png)
 ![panel](images/panel.png)
 
 
